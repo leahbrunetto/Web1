@@ -27,27 +27,29 @@ h1 {
 
  font-size:24px;
  font-family:Arial;
-    font-weight:Bold;
+ font-weight:bold;
+ position:relative;
+
 }
 
 h2 {
  color:gray;
  font-size:12px;
  font-family:Arial;
+ position:relative;
 
 }	 
 
-  article {
-    position:relative;
-  }
-  
 img {
  float: left;
     padding:10px;
 }
   
   p {
-    padding:5px;
+    font-family:Arial;
+	font-size=.75em;
+	margin: 20px,10px,0px,0px;
+}
 
 </style>
 /* Meyer Reset */
