@@ -1,39 +1,5 @@
-<style>
-  
-section#main-content {
-  margin:0 auto;
-  width:960px;
-  }
-    
-h1 {
 
- font-size:24px;
- font-family:Arial;
-    font-weight:Bold;
-    padding:5px;
-}
 
-h2 {
- color:gray;
- font-size:12px;
- font-family:Arial;
-    padding:5px;
-
-}	 
-
-  article {
-    position:relative;
-  }
-  
-img {
- float: left;
-    padding:10px;
-}
-  
-  p {
-    padding:5px;
-
-</style>
 /* Meyer Reset */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -83,5 +49,4 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 
