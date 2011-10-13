@@ -7,8 +7,21 @@ http://meyerweb.com/eric/tools/css/reset/
 
 #main-content {
   margin-left: 20px;
+  width: 100%;
   position:relative;
   }
+
+.article1 {
+	width:30%;
+	float:left;
+	padding:30px;
+}
+
+.article2 {
+	width:30%;
+	float:left;
+	padding:30px;
+}
     
 h1 {
 
