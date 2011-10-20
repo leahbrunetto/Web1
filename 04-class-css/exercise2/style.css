@@ -6,6 +6,116 @@
    License: none (public domain)
 */
 
+<style>
+
+h1 { 
+font-family: Georgia;
+font-size: 1.6em;
+color: #663300;
+}
+
+h2 { 
+font-family: Georgia;
+font-size: 1.2em;
+color: #663300;
+text-transform: uppercase;
+}
+
+a {
+text-decoration: none;
+font-family: Georgia;
+}
+
+p { 
+font-size: 1em;
+font-family: Georgia;
+}
+
+#site-header {
+  left top;
+  position:relative;
+  background-color: #FFFFCC;
+  height:120px;
+}
+
+#site-header img { 
+  display:block;	
+  position:absolute;
+  left top;
+  clear;
+}
+
+
+#top-nav { 
+position:absolute;
+right:0px;
+top:0px;
+text-decoration: none;
+color: #663300;
+}
+
+#main-menu { 
+height:30px;
+width: 100%;
+background-color:#663300;
+}
+
+#main-menu ul li {
+display:block;
+text-transform: uppercase;
+float:left; 
+padding:0 5px; 
+}
+
+#main-menu ul li a {
+display:block;
+color:white;
+padding:5px 5px;
+background-color:#663300; }
+
+#page {
+float: left;
+width:50%;
+padding: 10px, 10px, 10px, 10px;
+}
+
+#sidebar { 
+float: right;
+width:25%;
+padding: 10px, 10px, 10px, 10px;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+	}
+
+.clearfix { display: inline-block; }
+  html[xmlns] .clearfix { display: block; }
+  * html .clearfix { height: 1%; }
+
+
+#site-footer {
+background-color:#663300;
+width: 100%;
+left bottom;
+}
+
+#footer-contact {
+float: right;
+}
+
+#footer-follow a{
+float: left;
+}
+
+
+</style>
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
