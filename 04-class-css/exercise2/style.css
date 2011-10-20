@@ -31,20 +31,27 @@ font-size: 1em;
 font-family: Georgia;
 }
 
+#page h1 {font-size:40px;}
+
+#site-wrapper {
+height:123px; background-color:#ECFD3;}
+
+
 #site-header {
-  left top;
+  width:960px;
   position:relative;
   background-color: #FFFFCC;
   height:120px;
 }
 
+#site-wrapper h1 {position:absolute;}
+
 #site-header img { 
   display:block;	
   position:absolute;
-  left top;
+  top left;
   clear;
 }
-
 
 #top-nav { 
 position:absolute;
@@ -53,6 +60,9 @@ top:0px;
 text-decoration: none;
 color: #663300;
 }
+
+#menu-wrapper {
+height:35px; background-color:#744918}
 
 #main-menu { 
 height:30px;
