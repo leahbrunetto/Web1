@@ -20,24 +20,35 @@ width:100%;
 display:block;
 text-transform: uppercase;
 text-decoration: none;
-float:left;
+float: left;
 padding:10px;
 }
  
 .article-1 {
 width:40%;
-float:left;
+float: left;
 padding:40px;
 }
 
 .article-2 {
 width:40%;
-float:left;
+float: left;
 padding:40px;
 clear:both;
 }
 
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
 
+.clearfix { display: inline-block; }
+  html[xmlns] .clearfix { display: block; }
+  * html .clearfix { height: 1%; }
   
 #footer {
 width:100%
