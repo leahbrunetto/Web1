@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Leah Brunetto | Fortune Finding</title>
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="finalstyle.css" type="text/css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+  
+    <script type="text/javascript">
+    $(function() {
+        $('#gallery a').lightBox();
+    });
+    </script>
+   	<style type="text/css">
+	/* jQuery lightBox plugin - Gallery style */
+	#gallery {
+		background-color: black;
+		padding: 20px;
+		width: 100%;
+	}
+	#gallery ul { list-style: none; }
+	#gallery ul li { display: inline; }
+	#gallery ul img {
+		border: 5px solid #3e3e3e;
+	}
+	#gallery ul a:hover img {
+		border: 5px solid #fff;
+		color: #fff;
+	}
+	#gallery ul a:hover { color: #fff; }
+	</style>
+	
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+  
+  <script>
+  $(document).ready(function() {
+    $("#accordion").accordion();
+	$( ".selector" ).accordion({ collapsible: true });
+  });
+  </script>
+	
+</head>
+
+<body>
+<div id= 'content'>
+<div id='menu-wrapper'>
+  <ul>
+    <li><h3>Leah Brunetto</h3>
+    <ul>
+    	<li><a href="#">About</a></li>
+    	<li><a href="#">CV</a></li>
+    </ul></li>
+    
+    <li><h3>Projects</h3>
+	<ul>
+  		<li><a href="#">The Infinite City Park</a></li>
+  		<li><a href="#">Shore Cycle</a></li>
+  		<li><a href="#">Grass Spirit</a></li>
+  		<li><a href="#">Fortune Finding</a></li>
+  		<li><a href="#">Moss Obedience</a></li>
+  		<li><a href="#">Air Pollution Group</a></li>
+  		<li><a href="#">Second Home</a></li>
+  		<li><a href="#">Older...</a></li>
+	</ul></li>
+
+    <li><h3>Links</li></h3>
+    <ul>
+    	<li><a href="missbrunetto.wordpress.com">Wordpress</a></li>
+    	<li><a href="http://vimeo.com/user3554643">Vimeo</a></li>
+    	<li><a href="http://www.openprocessing.org/portal/?userID=13435">Processing Portfolio</a></li>
+	</ul></li>
+	
+</nav>
+
+
+</div> <!-- end #menu-wrapper -->
+
+<div id='content-wrapper'>
+   <div id="project-header">
+    <img src='fortunefinding.jpg'/>
+    <h1> Fortune Finding </h1>
+    <h2> Spring 2011 </h2>
+    </div>
+    
+    <p>In these experiments, I created photograms of encased fortune cookies. I started by simply
+    placing fortune cookies underneath the enlarger in different orientations, with the interest 
+    in seeing if the cookie would be entirely opaque and if the plastic wrapping would be 
+    completely translucent. I later smashed and moved cookies during the explosure interval, 
+    creating layered images. Such photograms documented the history of each cookie. Artifacts of 
+    former states of the cookie are visible; each of these states remained contained within the 
+    plastic casing. In images where the cookie does not move directionally, the oldest, most
+    complete forms are dim shadows while the final, fractured form is bright. Moving or still, the 
+    layering of different forms over time allows for their hybridization in the plane of the paper.
+    </p>
+    
+<div id="gallery">
+    <ul>
+        <li>
+            <a href="mossphotos/image1.jpg" title="Original painting">
+                <img src="mossphotos/thumb_image1.jpg" width="72" height="72" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="mossphotos/image2.jpg" title="Photographic self portrait 1">
+                <img src="mossphotos/thumb_image2.jpg" width="72" height="72" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="mossphotos/image3.jpg" title="Photographic self portrait 2">
+                <img src="mossphotos/thumb_image3.jpg" width="72" height="72" alt="" />
+            </a>
+        </li>
+    </ul>
+</div>
+</div>
+</div>
+
+<div id='footer-wrapper' class="clearfix">
+  <footer id='site-footer'>
+      <p>(c) Leah Brunetto 2012 </p>
+  </footer>
+</div> <!-- end #footer-wrapper -->
+</div>
+</body>
+
+</html>
