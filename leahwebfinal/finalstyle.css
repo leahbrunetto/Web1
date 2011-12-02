@@ -70,41 +70,44 @@ body {
 	}
 	
 #content {
-	width: 75%;
+	width: 80%;
 	height:100%;
 	margin:0px auto;
 	text-align:left;
 	}  
   
-h1 {font-family: Georgia; font-size:2em; font-weight:bold; padding: 5px;}
+h1 {font-family: Georgia; font-size:1.5em; font-weight:bold; padding: 5px;}
 
-h2 {font-family: Georgia; font-size:1.5em; padding: 5px;}
+h2 {font-family: Georgia; font-size:1.1em;}
 
 h3 {font-family: Georgia; font-size:2em; font-variant:small-caps; text-decoration: none; color:
-black; padding: 5px;}
+black; padding: 10px; color:white;}
 
-a {font-family: Georgia; font-size:1.1em; color: gray; padding: 20px; text-decoration:none;}
+a {font-family: Georgia; font-size:1em; color: gray; display:block; padding: 3px; 
+text-decoration:none; text-indent:10px; }
 
-a:hover {font-weight:bold;}
+a:hover {font-style: oblique; color: white}
 
-p {font-family: Georgia; font-size:1em; padding: 30px}
+p {font-family: Georgia; font-size:1em; padding: 15px; color:black;}
 
 #menu-wrapper {
 float:left;
 width:35%;
-background: white;
+background: black;
 }
 
 #content-wrapper {
 float:right;
 width:60%;
 background:white;
+-moz-border-radius: 25px 10px / 10px 25px;
+border-radius: 25px 10px / 10px 25px;
+padding-bottom:17px;
 }
 
 #project-header img {
 float: left;
 padding:10px;
-
 
 #footer-wrapper {
 clear: both;
