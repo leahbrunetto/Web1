@@ -20,20 +20,21 @@
    	<style type="text/css">
 	/* jQuery lightBox plugin - Gallery style */
 	#gallery {
-		background-color: black;
+		background-color: white;
 		padding: 20px;
-		width: 100%;
+		width: 90%;
+
 	}
 	#gallery ul { list-style: none; }
-	#gallery ul li { display: inline; }
+	#gallery ul li { display: inline; float: left;}
 	#gallery ul img {
-		border: 5px solid #3e3e3e;
+		border: 4px solid #3e3e3e;
 	}
 	#gallery ul a:hover img {
-		border: 5px solid #fff;
-		color: #fff;
+		border: 4px solid black;
+		color: black;
 	}
-	#gallery ul a:hover { color: #fff; }
+	#gallery ul a:hover { color: black; }
 	</style>
 	
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
@@ -54,19 +55,19 @@
   <ul>
     <li><h3>Leah Brunetto</h3>
     <ul>
-    	<li><a href="#">About</a></li>
-    	<li><a href="#">CV</a></li>
+    	<li><a href="http://leahbrunetto.github.com/leahwebfinal/about.html">About</a></li>
+    	<li><a href="http://leahbrunetto.github.com/leahwebfinal/brunettocv.pdf">CV</a></li>
     </ul></li>
     
     <li><h3>Projects</h3>
 	<ul>
-  		<li><a href="#">The Infinite City Park</a></li>
-  		<li><a href="#">Shore Cycle</a></li>
-  		<li><a href="#">Grass Spirit</a></li>
-  		<li><a href="#">Fortune Finding</a></li>
-  		<li><a href="#">Moss Obedience</a></li>
-  		<li><a href="#">Air Pollution Group</a></li>
-  		<li><a href="#">Second Home</a></li>
+  		<li><a href="http://leahbrunetto.github.com/leahwebfinal/bachelorsthesis.html">Bachelor's Thesis</a></li>
+  		<li><a href="http://leahbrunetto.github.com/leahwebfinal/shorecycle.html">Shore Cycle</a></li>
+  		<li><a href="http://leahbrunetto.github.com/leahwebfinal/grassspirit.html">Grass Spirit</a></li>
+  		<li><a href="http://leahbrunetto.github.com/leahwebfinal/fortunefinding.html">Fortune Finding</a></li>
+  		<li><a href="http://leahbrunetto.github.com/leahwebfinal/mossobedience.html">Moss Obedience</a></li>
+  		<li><a href="http://leahbrunetto.github.com/leahwebfinal/airpollutiongroup.html">Air Pollution Group</a></li>
+  		<li><a href="http://leahbrunetto.github.com/leahwebfinal/secondhome.html">Second Home</a></li>
   		<li><a href="#">Older...</a></li>
 	</ul></li>
 
@@ -84,43 +85,70 @@
 
 <div id='content-wrapper'>
    <div id="project-header">
-    <img src='secondhome.jpg'/>
+    <img src='secondhomeicon.jpg'/>
     <h1> Second Home </h1>
     <h2> Spring 2010 </h2>
     </div>
     
+    <h4> “I will curl up within the negative space of the sculpture (without touching it), 
+    surrounded by two of its triangular appendages; this is an analogy to a bear entering a cave
+    for winter hibernation. I will lay a visible line of tape on the ground (also not touching the
+    sculpture) connecting these two arms of the sculpture—and thus creating their hypotenuse—as a 
+    symbol of unifying myself, the performer, and the cavity of refuge.  Afterward, I will reverse
+    the process, leaving the garden empty.”</h4>
+    
     <p>At MIT, students often lack personal spaces to return to during the course of a day, when 
-    they may be on campus for over twelve consecutive hours. Going from lecture to lunch, from 
-    lunch to lab, and so on, ideas, events, and spaces begin to blur. This project addresses these 
-    concerns through a performative intervention, in which I I transformed the garden into a refuge
-    by embodying the phenomenon of hibernation and the act of coming home. The site public, yet
+    they may be on campus for over twelve consecutive hours. Going from lecture to lunch, from
+    lunch to lab, and so on, ideas, events, and spaces begin to blur. This project addresses these
+    concerns through a performative intervention, in which I I transformed the garden into a refuge 
+    by embodying the phenomenon of hibernation and the act of coming home. The site public, yet 
     distant, space on campus: the Class of 2002 “Peace Garden”. While it is visible from corridors
     and accessible from the very active Stata Center, it is uninhabited. Coincidentally, students
-    are very often seen sleeping on the in front of the nearby lecture hall.  The audience, split 
-    vertically between the multiple corridors,viewed the performance through the glass side facing
+    are very often seen sleeping on the in front of the nearby lecture hall.  The audience, split
+    vertically between the multiple corridors,viewed the performance through the glass side facing 
     the garden. The garden served as stage, where each corridor level functions as a separate 
-    balcony and the performance site was viewed in architectural plan.</p>
+    balcony and the performance site was viewed in architectural plan.
+.</p>
     
-<div id="gallery">
+    
+<div id="gallery" class="clearfix">
     <ul>
         <li>
-            <a href="mossphotos/image1.jpg" title="Original painting">
-                <img src="mossphotos/thumb_image1.jpg" width="72" height="72" alt="" />
+            <a href="secondhomephotos/image4.jpg" title=".">
+                <img src="mossphotos/thumb_image4.jpg" width="72" height="72" alt="" />
             </a>
         </li>
         <li>
-            <a href="mossphotos/image2.jpg" title="Photographic self portrait 1">
-                <img src="mossphotos/thumb_image2.jpg" width="72" height="72" alt="" />
+            <a href="secondhomephotos/image1.jpg" title=".">
+                <img src="secondhomephotos/thumb_image1.jpg" width="72" height="72" alt="" />
             </a>
         </li>
         <li>
-            <a href="mossphotos/image3.jpg" title="Photographic self portrait 2">
-                <img src="mossphotos/thumb_image3.jpg" width="72" height="72" alt="" />
+            <a href="secondhomephotos/image2.jpg" title=".">
+                <img src="secondhomephotos/thumb_image2.jpg" width="72" height="72" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="secondhomephotos/image3.jpg" title=".">
+                <img src="secondhomephotos/thumb_image3.jpg" width="72" height="72" alt="" />
+            </a>
+        </li>
+                <li>
+            <a href="secondhomephotos/image5.jpg" title=".">
+                <img src="secondhomephotos/thumb_image5.jpg" width="72" height="72" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="secondhomephotos/image6.jpg" title=".">
+                <img src="secondhomephotos/thumb_image6.jpg" width="72" height="72" alt="" />
             </a>
         </li>
     </ul>
 </div>
+
+
 </div>
+
 </div>
 
 <div id='footer-wrapper' class="clearfix">

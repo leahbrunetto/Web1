@@ -94,17 +94,13 @@ h4 {font-family: Georgia; font-size:0.9em; padding: 15px; color:black; font-styl
 
 #menu-wrapper {
 float:left;
-width:35%;
+width:32%;
 background: black;
 }
 
 #content-wrapper {
 float:right;
-width:60%;
-background:white;
--moz-border-radius: 25px 10px / 10px 25px;
-border-radius: 25px 10px / 10px 25px;
-padding-bottom:17px;
+width:68%;
 }
 
 #project-header img {
