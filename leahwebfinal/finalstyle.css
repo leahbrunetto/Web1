@@ -98,6 +98,10 @@ width:35%;
 background: black;
 }
 
+#menu-wrapper img {
+padding:5px;
+}
+
 #content-wrapper {
 float:right;
 width:60%;
