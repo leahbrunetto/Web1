@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>About Leah </title>
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="finalstyle.css" type="text/css" media="screen" />
+	
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+  
+  <script>
+  $(document).ready(function() {
+    $("#accordion").accordion();
+	$( ".selector" ).accordion({ collapsible: true });
+  });
+  </script>
+	
+</head>
+
+<body>
+<div id= 'content'>
+<div id='menu-wrapper'>
+  <ul>
+    <li><h3>Leah Brunetto</h3>
+    <ul>
+    	<li><a href="http://leahbrunetto.github.com/leahwebfinal/about.html">About</a></li>
+    	<li><a href="http://leahbrunetto.github.com/leahwebfinal/brunettocv.pdf">CV</a></li>
+    </ul></li>
+    
+    <li><h3>Projects</h3>
+	<ul>
+  		<li><a href="http://leahbrunetto.github.com/leahwebfinal/bachelorsthesis.html">Bachelor's Thesis</a></li>
+  		<li><a href="http://leahbrunetto.github.com/leahwebfinal/grassspirit.html">Grass Spirit</a></li>
+  		<li><a href="http://leahbrunetto.github.com/leahwebfinal/fortunefinding.html">Fortune Finding</a></li>
+  		<li><a href="http://leahbrunetto.github.com/leahwebfinal/mossobedience.html">Moss Obedience</a></li>
+  		<li><a href="http://leahbrunetto.github.com/leahwebfinal/airpollutiongroup.html">Air Pollution Group</a></li>
+  		<li><a href="http://leahbrunetto.github.com/leahwebfinal/secondhome.html">Second Home</a></li>
+	</ul></li>
+
+    <li><h3>Links</li></h3>
+    <ul>
+    	<li><a href="http://missbrunetto.wordpress.com">Wordpress</a></li>
+    	<li><a href="http://vimeo.com/user3554643">Vimeo</a></li>
+    	<li><a href="http://www.openprocessing.org/portal/?userID=13435">Processing Portfolio</a></li>
+    	<li> <a href="http://leahbrunetto.github.com/leahwebfinal/index.html"><img src='home.jpg'/></a> </li>
+	</ul></li>
+	
+</nav>
+
+
+</div> <!-- end #menu-wrapper -->
+
+<div id='content-wrapper'>
+   <div id="project-header">
+    <img src='leah.jpg'/>
+    </div>
+    
+                <form method="post" action="cs.php">
+                        <p>Name: <input type="text" name="name" /></p>
+                        <p>Email: <input type="text" name="email" /></p>
+                        <p>Subject: <input type="text" name="subject" /></p>
+                        <p>Message:</p>
+                                <p style="text-indent: 10px"><textarea name="message" rows="20" cols="60"></textarea></p>
+                        <p><input type="submit" name="submit" value="Send!" /></p>
+                </form>
+</div>
+</div>
+
+</div> <!-- end #footer-wrapper -->
+</div>
+</body>
+
+</html>
