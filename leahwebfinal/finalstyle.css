@@ -78,7 +78,7 @@ body {
   
 h1 {font-family: Georgia; font-size:1.5em; font-weight:bold; padding: 5px;}
 
-h2 {font-family: Georgia; font-size:1.1em;}
+h2 {font-family: Georgia; font-size:1.1em; padding: 5px;}
 
 h3 {font-family: Georgia; font-size:2em; font-variant:small-caps; text-decoration: none; color:
 black; padding: 10px; color:white;}
